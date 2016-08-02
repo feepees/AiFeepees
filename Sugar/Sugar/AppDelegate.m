@@ -16,10 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UIImage *image=nil;
-    NSLog(@"%@",image);
-    NSLog(@"hahah");
+    
     // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor=[UIColor whiteColor];
+    UITabBarController *tabC=[[UITabBarController alloc]init];
     return YES;
 }
 
