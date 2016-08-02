@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIImage *image=nil;
     NSLog(@"%@",image);
+    NSLog(@"hahah");
     // Override point for customization after application launch.
     return YES;
 }
