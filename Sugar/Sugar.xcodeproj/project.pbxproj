@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1A17E91D5075650038F72B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A17E81D5075650038F72B /* main.m */; };
+		DE1A17EC1D5075650038F72B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A17EB1D5075650038F72B /* AppDelegate.m */; };
+		DE1A17EF1D5075650038F72B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A17EE1D5075650038F72B /* ViewController.m */; };
+		DE1A17F21D5075650038F72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1A17F01D5075650038F72B /* Main.storyboard */; };
+		DE1A17F51D5075660038F72B /* Sugar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1A17F31D5075650038F72B /* Sugar.xcdatamodeld */; };
+		DE1A17F71D5075660038F72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1A17F61D5075660038F72B /* Assets.xcassets */; };
+		DE1A17FA1D5075660038F72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1A17F81D5075660038F72B /* LaunchScreen.storyboard */; };
+		DE1A18051D5075660038F72B /* SugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A18041D5075660038F72B /* SugarTests.m */; };
+		DE1A18101D5075660038F72B /* SugarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A180F1D5075660038F72B /* SugarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1A18011D5075660038F72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1A17DC1D5075650038F72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1A17E31D5075650038F72B;
+			remoteInfo = Sugar;
+		};
+		DE1A180C1D5075660038F72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1A17DC1D5075650038F72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1A17E31D5075650038F72B;
+			remoteInfo = Sugar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1A17E41D5075650038F72B /* Sugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1A17E81D5075650038F72B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE1A17EA1D5075650038F72B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE1A17EB1D5075650038F72B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE1A17ED1D5075650038F72B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE1A17EE1D5075650038F72B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE1A17F11D5075650038F72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE1A17F41D5075650038F72B /* Sugar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sugar.xcdatamodel; sourceTree = "<group>"; };
+		DE1A17F61D5075660038F72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1A17F91D5075660038F72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE1A17FB1D5075660038F72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1A18001D5075660038F72B /* SugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1A18041D5075660038F72B /* SugarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarTests.m; sourceTree = "<group>"; };
+		DE1A18061D5075660038F72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1A180B1D5075660038F72B /* SugarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1A180F1D5075660038F72B /* SugarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarUITests.m; sourceTree = "<group>"; };
+		DE1A18111D5075660038F72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1A17E11D5075650038F72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A17FD1D5075660038F72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A18081D5075660038F72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1A17DB1D5075650038F72B = {
+			isa = PBXGroup;
+			children = (
+				DE1A17E61D5075650038F72B /* Sugar */,
+				DE1A18031D5075660038F72B /* SugarTests */,
+				DE1A180E1D5075660038F72B /* SugarUITests */,
+				DE1A17E51D5075650038F72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1A17E51D5075650038F72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A17E41D5075650038F72B /* Sugar.app */,
+				DE1A18001D5075660038F72B /* SugarTests.xctest */,
+				DE1A180B1D5075660038F72B /* SugarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1A17E61D5075650038F72B /* Sugar */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A17EA1D5075650038F72B /* AppDelegate.h */,
+				DE1A17EB1D5075650038F72B /* AppDelegate.m */,
+				DE1A17ED1D5075650038F72B /* ViewController.h */,
+				DE1A17EE1D5075650038F72B /* ViewController.m */,
+				DE1A17F01D5075650038F72B /* Main.storyboard */,
+				DE1A17F61D5075660038F72B /* Assets.xcassets */,
+				DE1A17F81D5075660038F72B /* LaunchScreen.storyboard */,
+				DE1A17FB1D5075660038F72B /* Info.plist */,
+				DE1A17F31D5075650038F72B /* Sugar.xcdatamodeld */,
+				DE1A17E71D5075650038F72B /* Supporting Files */,
+			);
+			path = Sugar;
+			sourceTree = "<group>";
+		};
+		DE1A17E71D5075650038F72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A17E81D5075650038F72B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE1A18031D5075660038F72B /* SugarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A18041D5075660038F72B /* SugarTests.m */,
+				DE1A18061D5075660038F72B /* Info.plist */,
+			);
+			path = SugarTests;
+			sourceTree = "<group>";
+		};
+		DE1A180E1D5075660038F72B /* SugarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1A180F1D5075660038F72B /* SugarUITests.m */,
+				DE1A18111D5075660038F72B /* Info.plist */,
+			);
+			path = SugarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1A17E31D5075650038F72B /* Sugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1A18141D5075660038F72B /* Build configuration list for PBXNativeTarget "Sugar" */;
+			buildPhases = (
+				DE1A17E01D5075650038F72B /* Sources */,
+				DE1A17E11D5075650038F72B /* Frameworks */,
+				DE1A17E21D5075650038F72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sugar;
+			productName = Sugar;
+			productReference = DE1A17E41D5075650038F72B /* Sugar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1A17FF1D5075660038F72B /* SugarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1A18171D5075660038F72B /* Build configuration list for PBXNativeTarget "SugarTests" */;
+			buildPhases = (
+				DE1A17FC1D5075660038F72B /* Sources */,
+				DE1A17FD1D5075660038F72B /* Frameworks */,
+				DE1A17FE1D5075660038F72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1A18021D5075660038F72B /* PBXTargetDependency */,
+			);
+			name = SugarTests;
+			productName = SugarTests;
+			productReference = DE1A18001D5075660038F72B /* SugarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE1A180A1D5075660038F72B /* SugarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1A181A1D5075660038F72B /* Build configuration list for PBXNativeTarget "SugarUITests" */;
+			buildPhases = (
+				DE1A18071D5075660038F72B /* Sources */,
+				DE1A18081D5075660038F72B /* Frameworks */,
+				DE1A18091D5075660038F72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1A180D1D5075660038F72B /* PBXTargetDependency */,
+			);
+			name = SugarUITests;
+			productName = SugarUITests;
+			productReference = DE1A180B1D5075660038F72B /* SugarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1A17DC1D5075650038F72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AiFeepees;
+				TargetAttributes = {
+					DE1A17E31D5075650038F72B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DE1A17FF1D5075660038F72B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DE1A17E31D5075650038F72B;
+					};
+					DE1A180A1D5075660038F72B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DE1A17E31D5075650038F72B;
+					};
+				};
+			};
+			buildConfigurationList = DE1A17DF1D5075650038F72B /* Build configuration list for PBXProject "Sugar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1A17DB1D5075650038F72B;
+			productRefGroup = DE1A17E51D5075650038F72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1A17E31D5075650038F72B /* Sugar */,
+				DE1A17FF1D5075660038F72B /* SugarTests */,
+				DE1A180A1D5075660038F72B /* SugarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1A17E21D5075650038F72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A17FA1D5075660038F72B /* LaunchScreen.storyboard in Resources */,
+				DE1A17F71D5075660038F72B /* Assets.xcassets in Resources */,
+				DE1A17F21D5075650038F72B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A17FE1D5075660038F72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A18091D5075660038F72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1A17E01D5075650038F72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A17F51D5075660038F72B /* Sugar.xcdatamodeld in Sources */,
+				DE1A17EF1D5075650038F72B /* ViewController.m in Sources */,
+				DE1A17EC1D5075650038F72B /* AppDelegate.m in Sources */,
+				DE1A17E91D5075650038F72B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A17FC1D5075660038F72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A18051D5075660038F72B /* SugarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1A18071D5075660038F72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1A18101D5075660038F72B /* SugarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1A18021D5075660038F72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1A17E31D5075650038F72B /* Sugar */;
+			targetProxy = DE1A18011D5075660038F72B /* PBXContainerItemProxy */;
+		};
+		DE1A180D1D5075660038F72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1A17E31D5075650038F72B /* Sugar */;
+			targetProxy = DE1A180C1D5075660038F72B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE1A17F01D5075650038F72B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1A17F11D5075650038F72B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1A17F81D5075660038F72B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1A17F91D5075660038F72B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1A18121D5075660038F72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1A18131D5075660038F72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1A18151D5075660038F72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sugar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.Sugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE1A18161D5075660038F72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sugar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.Sugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE1A18181D5075660038F72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SugarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.SugarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar.app/Sugar";
+			};
+			name = Debug;
+		};
+		DE1A18191D5075660038F72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SugarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.SugarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar.app/Sugar";
+			};
+			name = Release;
+		};
+		DE1A181B1D5075660038F72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SugarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.SugarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sugar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE1A181C1D5075660038F72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SugarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.SugarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sugar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1A17DF1D5075650038F72B /* Build configuration list for PBXProject "Sugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A18121D5075660038F72B /* Debug */,
+				DE1A18131D5075660038F72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1A18141D5075660038F72B /* Build configuration list for PBXNativeTarget "Sugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A18151D5075660038F72B /* Debug */,
+				DE1A18161D5075660038F72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE1A18171D5075660038F72B /* Build configuration list for PBXNativeTarget "SugarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A18181D5075660038F72B /* Debug */,
+				DE1A18191D5075660038F72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE1A181A1D5075660038F72B /* Build configuration list for PBXNativeTarget "SugarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1A181B1D5075660038F72B /* Debug */,
+				DE1A181C1D5075660038F72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE1A17F31D5075650038F72B /* Sugar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE1A17F41D5075650038F72B /* Sugar.xcdatamodel */,
+			);
+			currentVersion = DE1A17F41D5075650038F72B /* Sugar.xcdatamodel */;
+			path = Sugar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE1A17DC1D5075650038F72B /* Project object */;
+}
