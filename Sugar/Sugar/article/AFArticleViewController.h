@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AFArticleViewController : UIViewController<UITabBarControllerDelegate>
-
+@interface AFArticleViewController : UIViewController
 @end

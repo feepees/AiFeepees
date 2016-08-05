@@ -12,11 +12,12 @@
 #import "AFArticleViewController.h"
 #import "AFMessageViewController.h"
 #import "AFInfoViewController.h"
+#import "AFNavigationController.h"
 
 @implementation AFTabBarController
 -(void)viewDidLoad{
     [super viewDidLoad];
-    self.tabBar.backgroundColor=AFCOLOR(255, 255, 255);
+    [[UITabBar appearance] setBarTintColor:AFCOLOR(255, 255, 255)];
     AFHomeViewController *homeC=[[AFHomeViewController alloc]init];
     [self addChildViewController:homeC withTitle:@"首页" andImage:@"home_unselect.jpg" andSelectImage:@"home.jpg"];
     self.delegate=self;
@@ -35,12 +36,13 @@
     
 }
 -(void)addChildViewController:(UIViewController *)childController withTitle:(NSString *)titile andImage:(NSString *)image andSelectImage:(NSString *)selectImage{
-    childController.view.backgroundColor=RANDOMCOLOR;
+    //childController.view.backgroundColor=RANDOMCOLOR;
 
     childController.tabBarItem.image=[UIImage imageNamed:image];
     childController.tabBarItem.imageInsets=UIEdgeInsetsMake(6, 0, -6, 0);
     childController.tabBarItem.selectedImage=[UIImage imageNamed:selectImage];
-    [self addChildViewController:childController];
+    AFNavigationController *AFNav=[[AFNavigationController alloc]initWithRootViewController:childController];
+    [self addChildViewController:AFNav];
 
 }
 

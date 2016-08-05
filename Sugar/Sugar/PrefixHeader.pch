@@ -6,6 +6,7 @@
 //  Copyright © 2016年 AiFeepees. All rights reserved.
 //
 #import "UIView+AFExtention.h"
+#import "Masonry.h"
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
@@ -14,4 +15,9 @@
 
 #define RANDOMCOLOR [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1] ;
 #define AFCOLOR(r,g,b) [UIColor colorWithRed:(r/255) green:(g/255) blue:(b/255) alpha:1]
+
+//屏幕宽高
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
 #endif /* PrefixHeader_pch */

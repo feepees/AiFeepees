@@ -16,9 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
     // Do any additional setup after loading the view.
 }
-
+-(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    [super pushViewController:viewController animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
