@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE1A17E91D5075650038F72B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A17E81D5075650038F72B /* main.m */; };
-		DE1A17EC1D5075650038F72B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A17EB1D5075650038F72B /* AppDelegate.m */; };
-		DE1A17F51D5075660038F72B /* Sugar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1A17F31D5075650038F72B /* Sugar.xcdatamodeld */; };
-		DE1A17F71D5075660038F72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1A17F61D5075660038F72B /* Assets.xcassets */; };
 		DE1A18051D5075660038F72B /* SugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A18041D5075660038F72B /* SugarTests.m */; };
 		DE1A18101D5075660038F72B /* SugarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1A180F1D5075660038F72B /* SugarUITests.m */; };
+		DE2383BB1D546940000B7B67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23839C1D546940000B7B67 /* AppDelegate.m */; };
+		DE2383BC1D546940000B7B67 /* AFArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23839F1D546940000B7B67 /* AFArticleViewController.m */; };
+		DE2383BD1D546940000B7B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2383A01D546940000B7B67 /* Assets.xcassets */; };
+		DE2383BE1D546940000B7B67 /* AFDynamicViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383A41D546940000B7B67 /* AFDynamicViewContorller.m */; };
+		DE2383BF1D546940000B7B67 /* AFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383A71D546940000B7B67 /* AFHomeViewController.m */; };
+		DE2383C01D546940000B7B67 /* AFInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383AA1D546940000B7B67 /* AFInfoViewController.m */; };
+		DE2383C21D546940000B7B67 /* AFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383AE1D546940000B7B67 /* AFNavigationController.m */; };
+		DE2383C31D546940000B7B67 /* AFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383B01D546940000B7B67 /* AFTabBarController.m */; };
+		DE2383C41D546940000B7B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383B21D546940000B7B67 /* main.m */; };
+		DE2383C51D546940000B7B67 /* AFMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383B51D546940000B7B67 /* AFMessageViewController.m */; };
+		DE2383C61D546940000B7B67 /* Sugar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE2383B71D546940000B7B67 /* Sugar.xcdatamodeld */; };
+		DE2383CB1D546B00000B7B67 /* UIView+AFExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383CA1D546B00000B7B67 /* UIView+AFExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +42,36 @@
 
 /* Begin PBXFileReference section */
 		DE1A17E41D5075650038F72B /* Sugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1A17E81D5075650038F72B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE1A17EA1D5075650038F72B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DE1A17EB1D5075650038F72B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE1A17F41D5075650038F72B /* Sugar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sugar.xcdatamodel; sourceTree = "<group>"; };
-		DE1A17F61D5075660038F72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE1A17FB1D5075660038F72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE1A18001D5075660038F72B /* SugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1A18041D5075660038F72B /* SugarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarTests.m; sourceTree = "<group>"; };
 		DE1A18061D5075660038F72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE1A180B1D5075660038F72B /* SugarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1A180F1D5075660038F72B /* SugarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SugarUITests.m; sourceTree = "<group>"; };
 		DE1A18111D5075660038F72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE23839B1D546940000B7B67 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE23839C1D546940000B7B67 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE23839E1D546940000B7B67 /* AFArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFArticleViewController.h; sourceTree = "<group>"; };
+		DE23839F1D546940000B7B67 /* AFArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFArticleViewController.m; sourceTree = "<group>"; };
+		DE2383A01D546940000B7B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE2383A31D546940000B7B67 /* AFDynamicViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDynamicViewContorller.h; sourceTree = "<group>"; };
+		DE2383A41D546940000B7B67 /* AFDynamicViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDynamicViewContorller.m; sourceTree = "<group>"; };
+		DE2383A61D546940000B7B67 /* AFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHomeViewController.h; sourceTree = "<group>"; };
+		DE2383A71D546940000B7B67 /* AFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHomeViewController.m; sourceTree = "<group>"; };
+		DE2383A91D546940000B7B67 /* AFInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFInfoViewController.h; sourceTree = "<group>"; };
+		DE2383AA1D546940000B7B67 /* AFInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFInfoViewController.m; sourceTree = "<group>"; };
+		DE2383AB1D546940000B7B67 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2383AD1D546940000B7B67 /* AFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNavigationController.h; sourceTree = "<group>"; };
+		DE2383AE1D546940000B7B67 /* AFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNavigationController.m; sourceTree = "<group>"; };
+		DE2383AF1D546940000B7B67 /* AFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTabBarController.h; sourceTree = "<group>"; };
+		DE2383B01D546940000B7B67 /* AFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTabBarController.m; sourceTree = "<group>"; };
+		DE2383B11D546940000B7B67 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		DE2383B21D546940000B7B67 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE2383B41D546940000B7B67 /* AFMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMessageViewController.h; sourceTree = "<group>"; };
+		DE2383B51D546940000B7B67 /* AFMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMessageViewController.m; sourceTree = "<group>"; };
+		DE2383B61D546940000B7B67 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DE2383B81D546940000B7B67 /* Sugar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sugar.xcdatamodel; sourceTree = "<group>"; };
+		DE2383C91D546B00000B7B67 /* UIView+AFExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AFExtention.h"; sourceTree = "<group>"; };
+		DE2383CA1D546B00000B7B67 /* UIView+AFExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AFExtention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +102,7 @@
 		DE1A17DB1D5075650038F72B = {
 			isa = PBXGroup;
 			children = (
-				DE1A17E61D5075650038F72B /* Sugar */,
+				DE23839A1D546940000B7B67 /* Sugar */,
 				DE1A18031D5075660038F72B /* SugarTests */,
 				DE1A180E1D5075660038F72B /* SugarUITests */,
 				DE1A17E51D5075650038F72B /* Products */,
@@ -91,32 +117,6 @@
 				DE1A180B1D5075660038F72B /* SugarUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DE1A17E61D5075650038F72B /* Sugar */ = {
-			isa = PBXGroup;
-			children = (
-				DE1A181D1D50A98E0038F72B /* home */,
-				DE1A181F1D50A9A70038F72B /* dynamic */,
-				DE1A181E1D50A9A70038F72B /* article */,
-				DE1A18211D50A9A70038F72B /* message */,
-				DE1A18201D50A9A70038F72B /* info */,
-				DE1A17EA1D5075650038F72B /* AppDelegate.h */,
-				DE1A17EB1D5075650038F72B /* AppDelegate.m */,
-				DE1A17F61D5075660038F72B /* Assets.xcassets */,
-				DE1A17E71D5075650038F72B /* Supporting Files */,
-			);
-			path = Sugar;
-			sourceTree = "<group>";
-		};
-		DE1A17E71D5075650038F72B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE1A17E81D5075650038F72B /* main.m */,
-				DE1A17F31D5075650038F72B /* Sugar.xcdatamodeld */,
-				DE1A17FB1D5075660038F72B /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		DE1A18031D5075660038F72B /* SugarTests */ = {
@@ -137,43 +137,91 @@
 			path = SugarUITests;
 			sourceTree = "<group>";
 		};
-		DE1A181D1D50A98E0038F72B /* home */ = {
+		DE23839A1D546940000B7B67 /* Sugar */ = {
 			isa = PBXGroup;
 			children = (
+				DE2383C81D546B00000B7B67 /* category */,
+				DE23839D1D546940000B7B67 /* article */,
+				DE2383A21D546940000B7B67 /* dynamic */,
+				DE2383A51D546940000B7B67 /* home */,
+				DE2383A81D546940000B7B67 /* info */,
+				DE2383AC1D546940000B7B67 /* Main */,
+				DE2383B31D546940000B7B67 /* message */,
+				DE23839B1D546940000B7B67 /* AppDelegate.h */,
+				DE23839C1D546940000B7B67 /* AppDelegate.m */,
+				DE2383A01D546940000B7B67 /* Assets.xcassets */,
+				DE2383B61D546940000B7B67 /* PrefixHeader.pch */,
+				DE2383AB1D546940000B7B67 /* Info.plist */,
+				DE2383B71D546940000B7B67 /* Sugar.xcdatamodeld */,
+				DE2383B21D546940000B7B67 /* main.m */,
+			);
+			path = Sugar;
+			sourceTree = "<group>";
+		};
+		DE23839D1D546940000B7B67 /* article */ = {
+			isa = PBXGroup;
+			children = (
+				DE23839E1D546940000B7B67 /* AFArticleViewController.h */,
+				DE23839F1D546940000B7B67 /* AFArticleViewController.m */,
+			);
+			path = article;
+			sourceTree = "<group>";
+		};
+		DE2383A21D546940000B7B67 /* dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				DE2383A31D546940000B7B67 /* AFDynamicViewContorller.h */,
+				DE2383A41D546940000B7B67 /* AFDynamicViewContorller.m */,
+			);
+			path = dynamic;
+			sourceTree = "<group>";
+		};
+		DE2383A51D546940000B7B67 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				DE2383A61D546940000B7B67 /* AFHomeViewController.h */,
+				DE2383A71D546940000B7B67 /* AFHomeViewController.m */,
 			);
 			path = home;
 			sourceTree = "<group>";
 		};
-		DE1A181E1D50A9A70038F72B /* article */ = {
+		DE2383A81D546940000B7B67 /* info */ = {
 			isa = PBXGroup;
 			children = (
+				DE2383A91D546940000B7B67 /* AFInfoViewController.h */,
+				DE2383AA1D546940000B7B67 /* AFInfoViewController.m */,
 			);
-			name = article;
-			path = home/article;
+			path = info;
 			sourceTree = "<group>";
 		};
-		DE1A181F1D50A9A70038F72B /* dynamic */ = {
+		DE2383AC1D546940000B7B67 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DE2383AD1D546940000B7B67 /* AFNavigationController.h */,
+				DE2383AE1D546940000B7B67 /* AFNavigationController.m */,
+				DE2383AF1D546940000B7B67 /* AFTabBarController.h */,
+				DE2383B01D546940000B7B67 /* AFTabBarController.m */,
+				DE2383B11D546940000B7B67 /* API.h */,
 			);
-			name = dynamic;
-			path = home/dynamic;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		DE1A18201D50A9A70038F72B /* info */ = {
+		DE2383B31D546940000B7B67 /* message */ = {
 			isa = PBXGroup;
 			children = (
+				DE2383B41D546940000B7B67 /* AFMessageViewController.h */,
+				DE2383B51D546940000B7B67 /* AFMessageViewController.m */,
 			);
-			name = info;
-			path = home/info;
+			path = message;
 			sourceTree = "<group>";
 		};
-		DE1A18211D50A9A70038F72B /* message */ = {
+		DE2383C81D546B00000B7B67 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				DE2383C91D546B00000B7B67 /* UIView+AFExtention.h */,
+				DE2383CA1D546B00000B7B67 /* UIView+AFExtention.m */,
 			);
-			name = message;
-			path = home/message;
+			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1A17F71D5075660038F72B /* Assets.xcassets in Resources */,
+				DE2383BD1D546940000B7B67 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1A17F51D5075660038F72B /* Sugar.xcdatamodeld in Sources */,
-				DE1A17EC1D5075650038F72B /* AppDelegate.m in Sources */,
-				DE1A17E91D5075650038F72B /* main.m in Sources */,
+				DE2383BF1D546940000B7B67 /* AFHomeViewController.m in Sources */,
+				DE2383CB1D546B00000B7B67 /* UIView+AFExtention.m in Sources */,
+				DE2383C51D546940000B7B67 /* AFMessageViewController.m in Sources */,
+				DE2383C31D546940000B7B67 /* AFTabBarController.m in Sources */,
+				DE2383BC1D546940000B7B67 /* AFArticleViewController.m in Sources */,
+				DE2383C61D546940000B7B67 /* Sugar.xcdatamodeld in Sources */,
+				DE2383C01D546940000B7B67 /* AFInfoViewController.m in Sources */,
+				DE2383BE1D546940000B7B67 /* AFDynamicViewContorller.m in Sources */,
+				DE2383C21D546940000B7B67 /* AFNavigationController.m in Sources */,
+				DE2383C41D546940000B7B67 /* main.m in Sources */,
+				DE2383BB1D546940000B7B67 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +485,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sugar/PrefixHeader.pch;
 				INFOPLIST_FILE = Sugar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.Sugar;
@@ -440,6 +499,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sugar/PrefixHeader.pch;
 				INFOPLIST_FILE = Sugar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AiFeepees.com.Sugar;
@@ -537,12 +599,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DE1A17F31D5075650038F72B /* Sugar.xcdatamodeld */ = {
+		DE2383B71D546940000B7B67 /* Sugar.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DE1A17F41D5075650038F72B /* Sugar.xcdatamodel */,
+				DE2383B81D546940000B7B67 /* Sugar.xcdatamodel */,
 			);
-			currentVersion = DE1A17F41D5075650038F72B /* Sugar.xcdatamodel */;
+			currentVersion = DE2383B81D546940000B7B67 /* Sugar.xcdatamodel */;
 			path = Sugar.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
