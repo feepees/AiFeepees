@@ -22,6 +22,9 @@
 		DE2383C51D546940000B7B67 /* AFMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383B51D546940000B7B67 /* AFMessageViewController.m */; };
 		DE2383C61D546940000B7B67 /* Sugar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE2383B71D546940000B7B67 /* Sugar.xcdatamodeld */; };
 		DE2383CB1D546B00000B7B67 /* UIView+AFExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2383CA1D546B00000B7B67 /* UIView+AFExtention.m */; };
+		DE23FDF91D5982F600FE97A9 /* AFControllerTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23FDF81D5982F500FE97A9 /* AFControllerTitle.m */; };
+		DE23FDFC1D59B87A00FE97A9 /* NSString+AFExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23FDFB1D59B87A00FE97A9 /* NSString+AFExtention.m */; };
+		DE23FDFF1D59D22300FE97A9 /* AFControllersView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE23FDFE1D59D22300FE97A9 /* AFControllersView.m */; };
 		DE6AB4AF1D547A3800A3DA1C /* AFBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AB4AE1D547A3800A3DA1C /* AFBanner.m */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +80,12 @@
 		DE2383B81D546940000B7B67 /* Sugar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sugar.xcdatamodel; sourceTree = "<group>"; };
 		DE2383C91D546B00000B7B67 /* UIView+AFExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AFExtention.h"; sourceTree = "<group>"; };
 		DE2383CA1D546B00000B7B67 /* UIView+AFExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AFExtention.m"; sourceTree = "<group>"; };
+		DE23FDF71D5982F500FE97A9 /* AFControllerTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFControllerTitle.h; sourceTree = "<group>"; };
+		DE23FDF81D5982F500FE97A9 /* AFControllerTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFControllerTitle.m; sourceTree = "<group>"; };
+		DE23FDFA1D59B87A00FE97A9 /* NSString+AFExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AFExtention.h"; sourceTree = "<group>"; };
+		DE23FDFB1D59B87A00FE97A9 /* NSString+AFExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AFExtention.m"; sourceTree = "<group>"; };
+		DE23FDFD1D59D22300FE97A9 /* AFControllersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFControllersView.h; sourceTree = "<group>"; };
+		DE23FDFE1D59D22300FE97A9 /* AFControllersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFControllersView.m; sourceTree = "<group>"; };
 		DE6AB4AD1D547A3800A3DA1C /* AFBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBanner.h; sourceTree = "<group>"; };
 		DE6AB4AE1D547A3800A3DA1C /* AFBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +219,10 @@
 				DE2383A71D546940000B7B67 /* AFHomeViewController.m */,
 				DE6AB4AD1D547A3800A3DA1C /* AFBanner.h */,
 				DE6AB4AE1D547A3800A3DA1C /* AFBanner.m */,
+				DE23FDF71D5982F500FE97A9 /* AFControllerTitle.h */,
+				DE23FDF81D5982F500FE97A9 /* AFControllerTitle.m */,
+				DE23FDFD1D59D22300FE97A9 /* AFControllersView.h */,
+				DE23FDFE1D59D22300FE97A9 /* AFControllersView.m */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -249,6 +262,8 @@
 			children = (
 				DE2383C91D546B00000B7B67 /* UIView+AFExtention.h */,
 				DE2383CA1D546B00000B7B67 /* UIView+AFExtention.m */,
+				DE23FDFA1D59B87A00FE97A9 /* NSString+AFExtention.h */,
+				DE23FDFB1D59B87A00FE97A9 /* NSString+AFExtention.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -435,6 +450,7 @@
 			files = (
 				DE2383BF1D546940000B7B67 /* AFHomeViewController.m in Sources */,
 				DE2383CB1D546B00000B7B67 /* UIView+AFExtention.m in Sources */,
+				DE23FDF91D5982F600FE97A9 /* AFControllerTitle.m in Sources */,
 				DE6AB4AF1D547A3800A3DA1C /* AFBanner.m in Sources */,
 				DE2383C51D546940000B7B67 /* AFMessageViewController.m in Sources */,
 				DE2383C31D546940000B7B67 /* AFTabBarController.m in Sources */,
@@ -443,7 +459,9 @@
 				DE2383C01D546940000B7B67 /* AFInfoViewController.m in Sources */,
 				DE2383BE1D546940000B7B67 /* AFDynamicViewContorller.m in Sources */,
 				DE2383C21D546940000B7B67 /* AFNavigationController.m in Sources */,
+				DE23FDFC1D59B87A00FE97A9 /* NSString+AFExtention.m in Sources */,
 				DE2383C41D546940000B7B67 /* main.m in Sources */,
+				DE23FDFF1D59D22300FE97A9 /* AFControllersView.m in Sources */,
 				DE2383BB1D546940000B7B67 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

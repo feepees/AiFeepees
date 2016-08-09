@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AFBanner : UIScrollView
+@interface AFBanner : UIView<UIScrollViewDelegate>
+
+@property(nonatomic,strong)UIScrollView *contentScrollView;
+@property(nonatomic,strong)UIPageControl *pagecontrol;
+@property(nonatomic,strong)NSTimer *timer;
+
+
 -(void)addImages:(NSArray *)images;
+
+
 @end

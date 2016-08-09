@@ -6,6 +6,7 @@
 //  Copyright © 2016年 AiFeepees. All rights reserved.
 //
 #import "UIView+AFExtention.h"
+#import "NSString+AFExtention.h"
 #import "Masonry.h"
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch

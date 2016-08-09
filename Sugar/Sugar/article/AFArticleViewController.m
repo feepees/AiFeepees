@@ -10,6 +10,11 @@
 
 @implementation AFArticleViewController
 -(void)viewDidLoad{
+    UIButton *button=[[UIButton alloc]initWithFrame:CGRectMake(10, 20, 100, 50)];
+    [button setTitle:@"开始" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     [super viewDidLoad];
     
     
